@@ -1,10 +1,11 @@
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.1.
+To install Angular CLI, use the command ```npm install -g @angular/cli```
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically execute ```ng build```  and then  recache if any of the source files were changed. To stop this, stash or commit your changes and switch to a different git branch.
 
 ## Code scaffolding
 
